@@ -4,7 +4,7 @@ import cv2
 fece_xml = 'haarcascade_frontalface_default.xml'
 eyes_xml = 'haarcascade_eye.xml'
 
-# call 변수에 CascadeClassifier 함수를 사용하여 xml 변수에 있는 인공지는을 불러옴.
+# call 변수에 CascadeClassifier 함수를 사용하여 xml 변수에 있는 인공지능을 불러옴.
 call_in_face = cv2.CascadeClassifier(fece_xml)
 call_in_eyes = cv2.CascadeClassifier(eyes_xml)
 
